@@ -1,0 +1,52 @@
+html{
+    font-size: 100%;
+}
+body{
+    background: url(./pic/texture1.jpg) no-repeat fixed;
+    background-size: cover;
+  }
+  .temp{
+    margin: 7rem 30rem;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding:5rem;
+    text-align: center;
+  }
+
+  .title{
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .temperature{
+    padding: .5rem;
+    padding-right: 4rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+  }
+  .result{
+    margin-bottom: 1rem;
+    color: #7dc4b8;
+  }
+  #btn{
+    margin: 2rem 1rem;
+    color: white;
+    background-color: rgb(87, 177, 165);
+    padding: 1rem;
+    border: 3px solid #4aa88d;
+    border-radius: 10px;
+    transition: 1s all;
+  }
+  #btn:hover{
+    color: #99f4da;
+    background-color: #09211b;
+    animation: pulsate 1s ease-out;
+  }
+
+  @keyframes pulsate {
+    0%{
+      box-shadow:
+      0 0 25px #6bebc7,
+      0 0 50px #045240;
+    }
+  }
+  
